@@ -1,5 +1,5 @@
 ###########################################################
-# Script to copy templates to cisco devices i.e. switches/routers       	  #
+# Script to deploy configs to cisco devices i.e. switches/routers       	  #
 # Author: Anthony Constant                        		            		  #
 # Date: 22/04/2024      					                                  #
 ###########################################################
