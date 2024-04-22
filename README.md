@@ -4,6 +4,10 @@
 
 This Python script is designed to facilitate the copying of templates to Cisco routers or switches via console connection. It provides a simple interface for selecting the COM port, baud rate, and entering the password required for accessing privileged EXEC mode on the device. The script then copies the specified template file to the device and generates a log file to track the process.
 
+## How it Works
+
+The script establishes a serial connection with the Cisco device using the provided COM port and baud rate. It then sends commands to enter privileged EXEC mode and authenticate using the provided password if necessary. Once in privileged mode, the script reads a template file line by line and sends each line as a command to the Cisco device. After sending all commands, it waits for the device to process them and generates a log file containing the output received from the device.
+
 ## Features
 
 - Easy-to-use script for copying templates to Cisco devices via console connection.
