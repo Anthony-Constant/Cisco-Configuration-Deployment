@@ -43,6 +43,9 @@ Once the script execution is complete, check the generated log file to verify th
 Python 3.x
 pyserial (included in Python standard library)
 
+## Demo
+https://youtu.be/mnpJAD8dN78
+
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
